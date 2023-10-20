@@ -1,7 +1,6 @@
 ---
 title: Laravel Invokable Controller
 date: "2021-09-21T22:12:03.284Z"
-description: "laravel, php"
 ---
 
 Hello to everyone! In this article, we will examine how the `__invoke` method is used in the Laravel controller.

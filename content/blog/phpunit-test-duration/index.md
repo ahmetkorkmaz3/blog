@@ -1,7 +1,6 @@
 ---
 title: PHPUnit ile Testlerde Süre Limiti
 date: "2023-07-24T22:12:03.284Z"
-description: "PHPUnit ile testlere süre limiti verme."
 ---
 
 Merhaba, bu yazımda PHPUnit'e extension yazma ve çalışan testlerin belirli bir süre sonrasında hata vermesini sağlayacağız.
