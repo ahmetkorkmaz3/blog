@@ -44,4 +44,4 @@ Route::post('upload', UploadController::class);
 
 As a result, you can use an `invokable` controller when you only want to use a single method in a controller class and you don't need basic methods (index, store, update etc.) in the controller.
 
-Happy coding! :partying_face:
+Happy coding! 🥳
