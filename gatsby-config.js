@@ -9,15 +9,16 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Ahmet Korkmaz - Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ahmet Korkmaz`,
+      summary: `software developer, blog writer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `blog content`,
+    siteUrl: `https://ahmetkorkmaz.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ahmetmkorkmaz`,
+      github: `ahmetkorkmaz3`
     },
   },
   plugins: [
