@@ -32,25 +32,33 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+      <div className="info">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/profile-pic.png"
+          width={50}
+          height={50}
+          quality={95}
+          alt="Profile picture"
+        />
+        {author?.name && (
+          <p>
+            Personal Blog by <strong>{author.name}</strong>
+            <br/>
+            {author?.summary || null}
+          </p>
+        )}
+      </div>
+      <div className="social">
+          <a href={`https://github.com//${social?.github || ``}`}>
+              github
           </a>
-        </p>
-      )}
+          <a href={`https://twitter.com/${social?.twitter || ``}`}>
+              twitter
+          </a>
+      </div>
     </div>
   )
 }

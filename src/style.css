@@ -286,11 +286,22 @@ a:focus {
 
 .bio {
   display: flex;
+  flex-direction: column;
   margin-bottom: var(--spacing-16);
+  gap: var(--spacing-4);
+}
+
+.bio .info {
+  display: flex;
 }
 
 .bio p {
   margin-bottom: var(--spacing-0);
+}
+
+.bio .social {
+  display: flex;
+  gap: var(--spacing-4);
 }
 
 .bio-avatar {

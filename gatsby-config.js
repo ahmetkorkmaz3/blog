@@ -12,7 +12,7 @@ module.exports = {
     title: `Ahmet Korkmaz`,
     author: {
       name: `Ahmet Korkmaz`,
-      summary: `software developer, blog writer`,
+      summary: `software developer`,
     },
     description: `blog content`,
     siteUrl: `https://ahmetkorkmaz.netlify.com/`,
